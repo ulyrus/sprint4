@@ -17,8 +17,10 @@ public class MainPage {
     // появляемый текст
     private By shownText = By.id("accordion__panel-0");
 
+    // кнопка "заказать" в заголовке страницы
     private By orderButtonInHeader = By.xpath(".//div[@class='Header_Nav__AGCXC']/button");
 
+    // большая кнопка "заказать"
     private By orderButton = By.xpath(".//div[@class='Home_FinishButton__1_cWm']/button");
 
     public MainPage(WebDriver driver) {
